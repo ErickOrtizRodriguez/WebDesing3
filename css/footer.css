@@ -1,0 +1,71 @@
+footer{
+width: 100%;
+height: 80px;
+background: rgba(42, 42, 42,.8);
+padding: 0;
+margin: 0;
+}
+
+.cont-footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copi{
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+
+}
+.informacion{
+
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: green;
+
+}
+
+footer .informacion p{
+  font-size: 10px;
+}
+
+.contac{
+  width: 40%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: red;
+}
+
+.contac a{
+  text-decoration: none;
+}
+
+.contac .btn{
+  background: rgba(83, 190, 224, 0.74);
+  border-radius: 5px;
+
+}
+
+.redes{
+  width: 20%;
+  text-align: center;
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.redes i{
+  color: #fff;
+  cursor: pointer;
+}
+
+.redes i:hover{
+  color: red;
+}
