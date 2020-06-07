@@ -18,6 +18,9 @@ section h2{
   font-weight: 100;
 }
 .servis{
+  position:relative;
+  max-width:350px;
+  height: 250px;
   margin-bottom: 15px;
   margin: 15px 10px;
   /*border: 3px solid rgba(23, 196, 235, 0.1);*/
@@ -30,13 +33,13 @@ section h2{
 
 }
 .servicios img{
-  width: 100%;
   max-width: 100%;
-
+  height: 140px;
   /*background-image: linear-gradient(to right, hsla(206, 95%, 63%, 0.21) 0%, hsla(181, 100%, 49%, 0.21) 100%);*/
 }
 
 .servis-info{
+  
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -50,7 +53,7 @@ section h2{
 .servis-info p{
 color: rgba(224, 94, 94, 0.73);
 margin-bottom: 10px;
-font-size: 20px;
+font-size: 15px;
 }
 
 .servis-info h3{

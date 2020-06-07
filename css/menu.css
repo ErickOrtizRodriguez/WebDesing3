@@ -3,15 +3,16 @@ nav{
 }
 
 .boton-menu{
-  width: 30px;
+  width: 40px;
   color:#fff;
-  font-size: 25px;
+  font-size: 20px;
   float: right;
   margin-left: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.47);
+  /*border: 1px solid rgba(255, 255, 255, 0.47);*/
+  box-shadow: 1px 1px 4px solid rgb(190, 190, 190);
 }
 
 .boton-menu i{
@@ -19,32 +20,34 @@ nav{
 }
 
 .boton-menu i:hover{
-    color: rgba(242, 161, 161, 0.66);
+    color: rgba(242, 161, 161, 0.4);
 }
 
 .titulo{
-  width: 200px;
+  position: relative;
   height: 50px;
-  margin-left: 25px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Pacifico', cursive;
   text-align: center;
-  padding: 0;
-  margin-top: 0;
-}
-.titulo a{
+  padding: 0px;
+  top: 12px;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
+
+.titulo:hover{
+  color: rgba(251, 0, 0, 0.75);
+}
+
 .menu{
   position:absolute;
   width: 100%;
-  background: rgba(42, 42, 42,.6);
+  background: rgba(107, 32, 32, 0.6);
   padding: 0;
   margin: 0;
   text-align: center;
-  margin-top:10px;
+  top: 60px;
   height: 0;
   overflow: hidden;
   transition: height .7s linear;
@@ -52,23 +55,24 @@ nav{
 }
 /*PARA USO CON JS*/
 .mostrar{
-  height: 170px;
+  height: 169px;
 }
 
 .menu ul{
   list-style: none;
+  margin: 0;
 }
 
 .menu a{
   width: 100%;
   display:block;
   padding: 11px;
-
   text-decoration: none;
   border-radius: 3px;
   font-size: 15px;
   color: #fff;
   border: .1px solid rgba(255, 255, 255, 0.47);
+  margin: auto;
 }
 
 .menu a:hover{
