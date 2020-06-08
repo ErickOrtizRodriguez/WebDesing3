@@ -1,7 +1,7 @@
-let btnmenu = document.getElementById('botonmenu');
 let menu = document.getElementById('menu');
+let btn = document.getElementById('btn');
 
-btnmenu.addEventListener('click', function(){
+btn.addEventListener('click', function(){
   'use strict';
   menu.classList.toggle('mostrar');
 });
