@@ -1,0 +1,49 @@
+.baner{
+  position: relative;
+  top: 50px;
+}
+
+.baner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 42, 45, 0.4);
+  top: 0;
+  z-index: 500;
+}
+.baner img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.baner-info{
+  position: absolute;
+  width: 90%;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  text-align: center;
+  z-index: 501;
+  font-size: 1.3em;
+}
+
+.baner-info a{
+  display:inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(247, 101, 119, 0.65);
+
+  width: 100px;
+  text-align:center;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+
+}
+
+.baner-info a:hover{
+  background: rgb(247, 101, 119);
+}

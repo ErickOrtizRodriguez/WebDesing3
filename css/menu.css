@@ -1,108 +1,67 @@
-nav{
+header{
   width: 100%;
-}
-
-.boton-menu{
-  width: 40px;
-  color:#fff;
-  font-size: 20px;
-  float: right;
-  margin-left: auto;
-  text-align: center;
-  margin-top: 15px;
-  margin-right: 10px;
-  /*border: 1px solid rgba(255, 255, 255, 0.47);*/
-  box-shadow: 1px 1px 4px solid rgb(190, 190, 190);
-}
-
-.boton-menu i{
-  cursor: pointer;
-}
-
-.boton-menu i:hover{
-    color: rgba(242, 161, 161, 0.4);
-}
-
-.titulo{
-  position: relative;
   height: 50px;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;
-  text-align: center;
-  padding: 0px;
-  top: 12px;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
+  background: rgba(22, 22, 22, 0.9);
+  box-shadow: 1px 1px 5px rgba(77, 78, 79, 0.87);
+  z-index: 3000;
+  position: fixed;
 }
 
-.titulo:hover{
-  color: rgba(251, 0, 0, 0.75);
+nav{
+  position:relative;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+header .logo{
+  color: rgba(255, 13, 13, 0.9);
+  padding: 0;
+  margin: 5px 15px;
+  font-size: 1.5em;
+  font-family:'Montserrat',sans-serif;
+  font-weight: 100;
 }
 
 .menu{
-  position:absolute;
-  width: 100%;
-  background: rgba(107, 32, 32, 0.6);
-  padding: 0;
-  margin: 0;
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  top: 51px;
   text-align: center;
-  top: 60px;
-  height: 0;
-  overflow: hidden;
-  transition: height .7s linear;
-  z-index: 5000;
-}
-/*PARA USO CON JS*/
-.mostrar{
-  height: 169px;
+  background: rgba(37, 37, 37,.9);
+  transform:translateX(-100%);
+  transition: all .9s;
+  z-index: 3000;
 }
 
 .menu ul{
   list-style: none;
-  margin: 0;
 }
 
 .menu a{
-  width: 100%;
-  display:block;
-  padding: 11px;
+  display: block;
+  color: red;
   text-decoration: none;
-  border-radius: 3px;
-  font-size: 15px;
-  color: #fff;
-  border: .1px solid rgba(255, 255, 255, 0.47);
-  margin: auto;
+  padding: 8px;
+  border: .1px solid #fff;
 }
 
 .menu a:hover{
-  background: hsla(340, 51%, 61%, 0.5);
-  transition: .7s;
+  background: rgba(139, 209, 108, 0.4);
 }
 
-nav .social{
-  position: absolute;
-  display: none;
- transform: translateX(-100%);
-  display: flex;
-  height: 60px;
-  justify-content:space-between;
-  align-items: center;
-  margin-right: 40px;
+.mostrar{
+  transform: translateX(0);
 }
 
-nav .social .social-item{
-  display: inline-block;
-  margin: 0px 10px;
+.boton-menu{
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1.5em;
 }
-/*displey none para desaparecer los social*/
-nav .social .social-item i{
-  display: none;
+
+.boton-menu i{
   cursor: pointer;
-  color: #000;
-}
-
-nav .social .social-item i:hover{
-  color: rgba(255, 15, 25, 0.81);
-  transition: 1s;
 }
