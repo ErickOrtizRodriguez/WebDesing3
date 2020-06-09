@@ -20,3 +20,8 @@ body{
   url('../fonts/Montserrat-ExtraLight.ttf'),
   url('../fonts/Montserrat-ExtraLightItalic.ttf');
 }
+
+.contenedor{
+  width: 90%;
+  margin: auto;
+}
