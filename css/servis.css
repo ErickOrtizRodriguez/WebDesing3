@@ -1,0 +1,69 @@
+.servicios{
+  width: 100%;
+  margin-top: 60px;
+}
+
+.servicios h1{
+  color: rgba(255, 13, 78, 0.8);
+  text-align: center;
+  font-family:'Pacifico',cursive;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.servis-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info{
+  width: 350px;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  box-shadow: 1px 1px 5px rgb(86, 84, 89);
+  margin-bottom: 10px;
+}
+.info img{
+  display: block;
+  width: 150px;
+  height: 180px;
+  margin: 10px 10px;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  margin: 0 6px;
+}
+
+.titulo h3{
+  color: rgb(47, 59, 219);
+  margin-bottom: 5px;
+}
+
+.titulo p{
+  font-size: .8em;
+  margin-bottom: 3px;
+}
+
+.titulo a{
+  display:block;
+  text-decoration: none;
+  background: rgba(75, 48, 224, 0.52);
+  padding: 3px;
+  color: #fff;
+  border-radius: 3px;
+
+}
+
+.titulo a:hover{
+  background: rgba(75, 48, 224, 0.7);
+}
