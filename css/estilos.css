@@ -8,6 +8,10 @@ body{
   font-family:Montserrat,sans-serif;
 }
 
+:root{
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family:'Pacifico';
   src: url('../fonts/Pacifico-Regular.ttf');
