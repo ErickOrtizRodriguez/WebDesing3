@@ -1,0 +1,91 @@
+.baner-app{
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.baner-descarga{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 10px;
+
+}
+
+.baner-descarga h1{
+  font-size: 1.6em;
+  margin: 5px 5px;
+}
+
+.baner-descarga p{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.baner-descarga i{
+  /*font-size: 1em;*/
+  display: block;
+  padding: 10px;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.baner-botones{
+  width: 100%;
+}
+
+.baner-botones a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 130px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.baner-botones i{
+  margin-right: 5px;
+  font-size: 1.4em;
+}
+.baner-botones .btn-android{
+  background: rgba(9, 255, 56, 0.5);
+  color: #fff;
+}
+
+.baner-botones .btn-android:hover{
+  background: rgba(255, 255, 255, 1);
+  color: rgb(0, 79, 255);
+  transition: .9s;
+}
+
+.baner-botones .btn-android:hover +.ios{
+  background: rgba(9, 255, 56, 0.5);
+  color: #fff;
+  transition: .9s;
+}
+
+.baner-botones .ios{
+  background: rgba(255, 255, 255, 1);
+  color: rgb(0, 79, 255);
+}
+
+.baner-botones .ios:hover{
+  background: rgba(9, 255, 56, 0.5);
+  color: #fff;
+  transition: .9s;
+}
+
+.baner-botones .ios:hover +.btn-android{
+  background: rgba(255, 255, 255, 1);
+  color: rgb(0, 79, 255);
+  transition: .9s;
+}

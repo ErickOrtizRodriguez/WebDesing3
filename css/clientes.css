@@ -1,6 +1,7 @@
 .clientes{
   width: 100%;
   margin: auto;
+  background: rgba(216, 232, 209, 0.1);
 }
 
 .clientes h1{
@@ -28,6 +29,7 @@
   border: 1px solid  white;
   opacity: .3;
   cursor: pointer;
+  margin: 10px 5px;
 }
 
 .clientes-cont-info:hover{
