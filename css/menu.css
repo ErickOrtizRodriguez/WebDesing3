@@ -1,8 +1,8 @@
 header{
   width: 100%;
   height: 50px;
-  background: rgba(22, 22, 22, 0.9);
-  box-shadow: 1px 1px 5px rgba(77, 78, 79, 0.87);
+  background: rgba(37, 37, 37,.9);
+  box-shadow: 1px 1px 5px rgba(77, 78, 79, 0.8);
   z-index: 3000;
   position: fixed;
 }
@@ -21,7 +21,7 @@ header .logo{
   margin: 5px 15px;
   font-size: 1.5em;
   font-family:'Montserrat',sans-serif;
-  font-weight: 100;
+  font-weight:;
 }
 
 .menu{
