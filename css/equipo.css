@@ -7,6 +7,7 @@
   color: rgba(255, 13, 78, 0.6);
   text-align: center;
   font-family:'Pacifico',cursive;
+  font-weight: 100;
   font-size: 1.8em;
   margin-bottom: 10px;
 }
@@ -28,7 +29,7 @@
   width: 320px;
   box-shadow: 5px 5px 5px rgb(86, 84, 60);
   background:#fff;
-  margin: 10px 5px;
+  margin: 10px 10px;
   background-image: linear-gradient(-225deg, rgba(165, 70, 179,.6) 0%, rgba(212, 24, 114,1) 52%, rgba(255, 0, 102,.6) 100%);
   color: #fff;
 
