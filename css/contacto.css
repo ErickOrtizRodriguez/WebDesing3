@@ -1,0 +1,130 @@
+.contacto{
+  width: 100%;
+  height: 380px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  margin-bottom: 20px;
+}
+
+.contacto-info{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacto-info h1{
+  margin: 7px;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.contacto-info p{
+  color:rgba(87, 81, 87, 0.9);
+}
+
+.contacto-form{
+position: relative;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px rgba(10, 63, 113, 0.67);
+  width: 200px;
+}
+
+input{
+  height: 30px;
+  margin-bottom: 5px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+textarea{
+  border: 1px;
+  border-radius: 4px;
+  height: 50px;
+}
+.nombre{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.boton{
+
+}
+button{
+  border: 0px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  width: 100px;
+  color: #fff;
+  background: rgba(240, 36, 36, 0.9);
+  padding: 5px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  opacity: .9
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.label{
+  font-size: 1.3em;
+  color: #fff;
+}
+/*.nombre{
+  display: block;
+  padding: 10px;
+  background: red;
+  margin-bottom: 3px;
+}
+
+.email{
+  display: block;
+  padding: 10px;
+  background: red;
+  margin-bottom: 3px;
+}
+
+.texto{
+  display: block;
+  padding: 10px;
+  background: red;
+  margin-bottom: 3px;
+}
+
+.boton{
+  display: block;
+  background: red;
+}*/

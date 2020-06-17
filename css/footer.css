@@ -20,7 +20,17 @@ hr{
   border-color: rgba(223, 226, 236, 0.3);
 }
 
+.logo-f{
+  text-decoration: none;
+  color: red;
+  font-size: 1.8em;
+  cursor: pointer;
+  opacity: .8;
+}
 
+.logo-f:hover{
+  opacity: 1;
+}
 .social-footer{
   margin: 10px 10px;
   font-size: 1.4em;
@@ -40,4 +50,5 @@ hr{
   font-size: 1em;
   margin-top: 5px;
   text-align: center;
+  bottom: 0;
 }

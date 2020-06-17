@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/baner-app.css">
   <link rel="stylesheet" href="css/equipo.css">
   <link rel="stylesheet" href="css/baner2.css">
+  <link rel="stylesheet" href="css/contacto.css">
   <link rel="stylesheet" href="css/footer.css">
     <title>TuWeb | 2020</title>
   </head>
@@ -195,10 +196,31 @@
         </div>
       </section>
 
+      <section class="contacto" id="Contacto">
+        <div class="contacto-info">
+          <h1>Dejanos Tu Comentario</h1>
+          <p>Cotiza con Nosotros Sobre los Servicios e Implementacion de Software</p>
+        </div>
+        <form class="contacto-form" action="index.html" method="post">
+          <div class="nombre">
+            <label for="nombre" class="label">Nombre</label><input type="text" name="nombre" value="" >
+          </div>
+          <div class="email">
+            <label for="email" class="label">Email</label><input type="email" name="email" value="" placeholder="tuweb@gmail.com">
+          </div>
+          <div class="texto">
+            <label for="text" class="label">Mensaje</label><textarea name="Mensaje" value=""></textarea>
+          </div>
+          <div class="boton">
+            <button type="button" name="button">Enviar</button>
+          </div>
+        </form>
+      </section>
+
       <footer>
         <div class="footer-cont">
           <div class="logo-footer">
-            <h1>Tu Web</h1>
+            <a href="" class="logo-f">TuWeb</a>
           </div>
           <div class="social-footer">
             <i class="fab fa-facebook"></i>
