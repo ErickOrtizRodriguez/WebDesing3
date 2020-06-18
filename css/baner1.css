@@ -35,7 +35,6 @@
   text-decoration: none;
   color: #fff;
   background: rgba(247, 101, 119, 0.65);
-
   width: 100px;
   text-align:center;
   padding: 5px;
@@ -46,4 +45,21 @@
 
 .baner-info a:hover{
   background: rgb(247, 101, 119);
+}
+
+@media screen and (min-width:768px){
+
+  .baner-info{
+    font-size: 2em;
+  }
+
+  .baner-info a{
+    font-size: .9em;
+    width: 140px;
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+
+
 }

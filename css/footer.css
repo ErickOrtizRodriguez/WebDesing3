@@ -22,7 +22,7 @@ hr{
 
 .logo-f{
   text-decoration: none;
-  color: red;
+  color:rgba(212, 206, 211, 0.72);
   font-size: 1.8em;
   cursor: pointer;
   opacity: .8;
@@ -51,4 +51,24 @@ hr{
   margin-top: 5px;
   text-align: center;
   bottom: 0;
+}
+
+@media screen and (min-width:768px){
+
+    .copi{
+      font-size: 1.4em;
+    }
+
+    .logo-f{
+      font-size: 2.5em;
+    }
+
+    .logo-f:hover{
+      color: #fff;
+    }
+
+    .social-footer i{
+      font-size: 1.2em;
+    }
+
 }
