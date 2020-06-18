@@ -32,7 +32,7 @@ header .logo{
   text-align: center;
   background: rgba(37, 37, 37,.9);
   transform:translateX(-100%);
-  transition: all .9s;
+
   z-index: 3000;
 }
 
@@ -54,6 +54,7 @@ header .logo{
 
 .mostrar{
   transform: translateX(0);
+  transition: all .9s;
 }
 
 .boton-menu{
@@ -64,4 +65,51 @@ header .logo{
 
 .boton-menu i{
   cursor: pointer;
+}
+
+
+/* /Menu Responsive*/
+
+@media screen and (min-width:768px){
+  .boton-menu{
+    display: none;
+  }
+
+  .menu{
+    position: relative;
+    top: 0;
+    transform:translateX(0%);
+    width: auto;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+    background: transparent;
+    transition: 0s;
+  }
+
+  .menu a{
+    border: 0px;
+    font-size: 1.3em;
+    color: red;
+
+
+  }
+
+  .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 5px 0 5px 5px;
+  }
+
+  .menu a:hover{
+  color: rgb(237, 218, 44);
+  background: transparent;
+  }
+
+
+
+
+
 }
