@@ -32,7 +32,7 @@ header .logo{
   text-align: center;
   background: rgba(37, 37, 37,.9);
   transform:translateX(-100%);
-
+  
   z-index: 3000;
 }
 
@@ -54,7 +54,7 @@ header .logo{
 
 .mostrar{
   transform: translateX(0);
-  transition: all .9s;
+  transition:all .9s;
 }
 
 .boton-menu{
@@ -84,7 +84,7 @@ header .logo{
     float: right;
     margin-right: 10px;
     background: transparent;
-    transition: 0s;
+
   }
 
   .menu a{

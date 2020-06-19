@@ -84,8 +84,44 @@
   transition: .9s;
 }
 
-.baner-botones .ios:hover +.btn-android{
+/*.baner-botones .ios:hover ~[class="btn-android"]{
   background: rgba(255, 255, 255, 1);
   color: rgb(0, 79, 255);
   transition: .9s;
+}*/
+
+.baner-botones .ios:hover  .baner-botones> a:first-child{
+  background: rgba(255, 255, 255, 1);
+  color: rgb(0, 79, 255);
+  transition: .9s;
+}
+
+@media screen and (min-width:1024px){
+
+  .baner-app{
+    height: 250px;
+  }
+
+  .baner-descarga{
+    margin-top: 50px;
+  }
+
+  .baner-descarga h1{
+    font-size:2.5em;
+
+  }
+
+  .baner-app p{
+    font-size:1.5em;
+    margin-bottom: 10px;
+  }
+
+  .baner-descarga i{
+    /*font-size: 1em;*/
+
+    font-size: 4em;
+
+  }
+
+
 }
