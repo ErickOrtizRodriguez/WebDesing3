@@ -63,3 +63,12 @@
 
 
 }
+
+@media screen and (min-width:1024px) {
+  .baner img{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+  }
+
+}

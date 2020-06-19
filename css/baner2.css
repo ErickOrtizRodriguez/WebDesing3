@@ -52,3 +52,39 @@
   font-size: 1.2em;
   margin: 5px 5px;
 }
+
+@media screen and (min-width:1219px) {
+
+  .baner2 {
+    height: 420px;
+  }
+
+  .baner2 img{
+
+    width: 350px;
+
+  }
+
+  .baner2-info h1{
+
+    font-size:2.5em;
+
+  }
+
+  .baner2-info p{
+    margin: -10px -10px 0px -10px;
+    font-size: 1.5em;
+
+
+  }
+
+  .baner2-info a{
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 120px;
+
+  }
+
+}
